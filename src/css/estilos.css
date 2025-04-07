@@ -1,0 +1,36 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+}
+
+.cabecalho {
+    height: 15vh;
+    display: flex;
+    padding: 2rem;
+}
+
+.cabecalho .logo {
+    width: 200px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 1.5rem;
+
+}
+
+.mockups img {
+    max-width: 500px;
+}
+
+.conteudo-principal .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffffff;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
